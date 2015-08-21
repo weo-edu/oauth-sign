@@ -16,8 +16,8 @@ Parameters:
   * `method` - the http verb used for the request (get/post/put/del)
   * `url` - the endpoint the request is being sent to (no querystring, domain & protocol must match)
   * `params` - all the parameters being sent with the request, minus the signature itself
-  * `consumer secret` - consumer secret (provided by the oauth provider)
-  * `token secret` - (optional) token secret (provided by the oauth provider)
+  * `consumerSecret` - consumer secret (provided by the oauth provider)
+  * `tokenSecret` - (optional) token secret (provided by the oauth provider)
 
 ## Example
 ```javascript
