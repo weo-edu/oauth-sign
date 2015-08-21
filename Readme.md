@@ -29,5 +29,11 @@ var params = {
   // ...etc
 }
 
-params.oauth_signature = sign('post', authorizeUrl, params, consumerSecret, tokenSecret)
+params.oauth_signature = sign(
+  'post',
+  authorizeUrl,
+  params,
+  consumerSecret,
+  tokenSecret
+)
 ```
